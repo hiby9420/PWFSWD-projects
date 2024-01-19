@@ -1,0 +1,83 @@
+:root{
+    --google-font : 'Poppins', sans-serif;
+    --primary-color : #ffffff;
+    --secondary-color : #ecc51c;
+    --btn-color : #ea4545;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: var(--google-font);
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(assets/pexels-maxyne-barcel-10402282\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center center; */
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0 50px 0 50px;
+    margin-top:30px ;
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    color: var(--secondary-color);
+    font-weight: 700;
+    
+}
+.logo,.list-item{
+    cursor: pointer;
+}
+.logo{
+    size: 100px;
+}
+.button-small{
+    padding : 6px 20px;
+    color: var(--primary-color);
+    background-color:var(--btn-color) ;
+    font-family: var(--google-font);
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+
+}
+.button-large{
+    padding : 20px 40px;
+    color: var(--primary-color);
+    background-color:var(--btn-color) ;
+    font-family: var(--google-font);
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.hero{
+    max-width: 1195px;
+    margin: auto;
+    text-align: center;
+    margin-top: 150px;
+    
+}
+.hero-heading{
+    font-size: 60px;
+    color: var(--secondary-color);
+}
+.bottom{
+    
+    position: absolute;
+    right: 45px;
+    bottom: 20px;
+
+}
