@@ -1,0 +1,91 @@
+:root{
+ --primary-color:#d43af3;
+ --nav-color:#111111;
+ --regular-font: 'Poppins', sans-serif;
+--heading-font:'Press Start 2P', system-ui;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: var(--regular-font);
+}
+.hero{
+    background-image: url("assests/bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 92vh;
+    text-align: center;
+    align-items: center;
+    display: block;
+
+}
+.navbar{
+    height: 8vh;
+    background-color: var(--nav-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px
+}
+.list{
+    display: flex;
+    gap: 50px;
+    color: aliceblue;
+    list-style: none;
+    cursor: pointer;
+}
+.btn-top{
+    border: none;
+    border-radius: 4px;
+    color: aliceblue;
+    font-size: 16px;
+    padding: 5px 20px;
+    cursor: pointer;
+    background-color: var(--primary-color);
+}
+.logo{
+    padding: 10px 10px;
+    width: 100px;
+}
+.heading{
+    max-width: 846px;
+    margin: 0 auto;
+    font-style: var(--heading-font);
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 98px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 172px;
+}
+.subtitle{
+    font-family: var(--regular-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #ffffff;
+}
+.btn-mid{
+    border: none;
+    border-radius: 4px;
+    color: aliceblue;
+    font-size: 16px;
+    padding: 8px 20px;
+    margin-top: 80px;
+    cursor: pointer;
+    background-color: var(--primary-color);
+}
+.btn-top:hover{
+    color: var(--primary-color);
+    font-weight: 700;
+    background-color: #ffffff;
+    border: 2px solid var(--primary-color);
+}
+.btn-mid:hover{
+    color: var(--primary-color);
+    font-weight: 700;
+    background-color: #ffffff;
+    border: 2px solid var(--primary-color);
+}
